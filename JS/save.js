@@ -38,10 +38,10 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:ADNAN ALBAKKOUR
-TITLE:Sales Manager
+FN:Sundus Kmail
+TITLE:Sales Director
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971586410997
+TEL;TYPE=WORK,VOICE:+971506789279
 EMAIL:adnano@dpdxb.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
@@ -53,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'ADNAN ALBAKKOUR.vcf';
+  a.download = 'Sundus Kmail.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
